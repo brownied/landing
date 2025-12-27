@@ -13,18 +13,20 @@ ul {
     margin: 0px;
     display: flex;
     gap: 12px;
+    
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 30px;
+    padding: 30px 0px;
+    margin-bottom: 50px;
     
 }
 
@@ -32,8 +34,9 @@ a{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    
+    align-items: center;
     gap: 50px;
+    color: white;
 }
 
 .context-box{
@@ -44,6 +47,10 @@ a{
     padding-bottom: 80px;
     gap: 60px;
     margin-top: -60px;
+}
+
+.logo{
+    font-weight: 800;
 }
 
 .headersub{
@@ -67,3 +74,96 @@ button{
     border-style: none;
 }
 
+.intro-container{
+    width: fit-content;
+ 
+}
+
+img{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.intro img{
+    border-color: white;
+}
+
+.impostors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.photo-container{
+    display: flex;
+    gap: 20px;
+}
+
+.impostors p {
+    text-align: center;
+    font-weight: 900px;
+}
+
+
+.quote{
+    background-color: #e4e4e4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+
+
+.credits{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.large-quote{
+    max-width: 700px;
+    text-align: center;
+}
+
+.quote p{
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+.cta-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border{
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 100px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.subtitles{
+    width: 400px;
+}
+
+.sub1{
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color:#e4e4e4
+}
